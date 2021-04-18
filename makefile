@@ -8,6 +8,8 @@ $(APPNAME) : $(OBJ)
 %.o : %.c
 	gcc -g  -c -o $@ $<
 #a clean rule
+#this rule is very handly
+#I keep both comment
 clean:
 	rm $(OBJ) $(APPNAME)
 
