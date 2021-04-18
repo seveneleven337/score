@@ -7,6 +7,7 @@ $(APPNAME) : $(OBJ)
 #a rule to compile each .c file
 %.o : %.c
 	gcc -g  -c -o $@ $<
+#a clean rule
 clean:
 	rm $(OBJ) $(APPNAME)
 
