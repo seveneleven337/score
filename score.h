@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 30
-
+//first edition pushed from shell
 
 void input_scores(int[]);
 void evaluation(int[], int[]);
