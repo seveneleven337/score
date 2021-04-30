@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #define MAX 30
 #first edition pushed from shell
-
+#edited in shell
 void input_scores(int[]);
 void evaluation(int[], int[]);
 void classification(int[], int[]);
